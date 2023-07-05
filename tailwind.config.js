@@ -3,21 +3,22 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
         white: "#fff",
         gray: {
-          "100": "#222831",
-          "200": "rgba(25, 24, 37, 0.1)",
-          "300": "rgba(25, 24, 37, 0.5)",
-          "400": "rgba(25, 24, 37, 0.75)",
+          100: "#222831",
+          200: "rgba(25, 24, 37, 0.1)",
+          300: "rgba(25, 24, 37, 0.5)",
+          400: "rgba(25, 24, 37, 0.75)",
         },
         black: "#191825",
         goldenrod: {
-          "100": "#facd49",
-          "200": "rgba(250, 205, 73, 0.08)",
+          100: "#facd49",
+          200: "rgba(250, 205, 73, 0.08)",
         },
         slateblue: "#5d50c6",
         hotpink: "#f85e9f",
