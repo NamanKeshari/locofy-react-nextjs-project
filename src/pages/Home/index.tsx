@@ -1,34 +1,13 @@
 import type { NextPage } from "next";
+import Logo from "./components/Logo";
+import Menu from "./components/Menu";
 
 const Home: NextPage = () => {
   return (
     <div className="relative bg-white w-full h-[241.31rem] overflow-hidden text-left text-[1.44rem] text-hotpink font-nunito-sans">
       <div className="absolute top-[-13.94rem] left-[-22.25rem] rounded-[50%] bg-orangered [filter:blur(500px)] w-[31.25rem] h-[31.25rem] opacity-[0.5]" />
       <div className="absolute top-[52.94rem] left-[84.44rem] rounded-[50%] bg-goldenrod-100 [filter:blur(500px)] w-[31.25rem] h-[31.25rem] opacity-[0.5]" />
-      <div className="w-full flex flex-row py-[2rem] px-[10.31rem] box-border items-center justify-between text-[0.88rem] text-black">
-        <div className="flex flex-row items-center justify-start gap-[1rem] text-[1.5rem]">
-          <img
-            className="relative w-[2.5rem] h-[2.5rem]"
-            alt=""
-            src="/vector.svg"
-          />
-          <div className="relative leading-[2.5rem] font-black">Travlog</div>
-        </div>
-        <div className="flex flex-row items-start justify-start gap-[4rem] text-gray-300">
-          <b className="relative leading-[120%] text-gray-100">Home</b>
-          <b className="relative leading-[120%]">Discover</b>
-          <b className="relative leading-[120%]">Special Deals</b>
-          <b className="relative leading-[120%]">Contact</b>
-        </div>
-        <div className="flex flex-row items-start justify-start text-gray-100">
-          <div className="rounded-81xl bg-white flex flex-row py-[1rem] px-[2rem] items-start justify-start">
-            <b className="relative leading-[120%]">Log In</b>
-          </div>
-          <div className="rounded-81xl bg-slateblue flex flex-row py-[1rem] px-[2rem] items-start justify-start text-whitesmoke">
-            <b className="relative leading-[120%]">Sign Up</b>
-          </div>
-        </div>
-      </div>
+      <Menu />
       <div className="mt-[4rem] ml-[10.3125rem] flex flex-row items-center justify-start text-[0.88rem]">
         <div className="w-[26.69rem] flex flex-col items-start justify-start gap-[2.69rem]">
           <div className="rounded-81xl bg-white shadow-[0px_856px_240px_rgba(0,_0,_0,_0),_0px_548px_219px_rgba(0,_0,_0,_0.01),_0px_308px_185px_rgba(0,_0,_0,_0.04),_0px_137px_137px_rgba(0,_0,_0,_0.06),_0px_34px_75px_rgba(0,_0,_0,_0.07),_0px_0px_0px_rgba(0,_0,_0,_0.07)] flex flex-row py-[1rem] px-[2rem] items-center justify-start gap-[1rem]">
@@ -292,16 +271,7 @@ const Home: NextPage = () => {
       <div className="absolute top-[210.69rem] left-[0.19rem] w-[90rem] flex flex-row py-[0rem] px-[10.31rem] box-border items-start justify-start gap-[9.56rem] text-[1.5rem] text-black">
         <div className="flex-1 flex flex-col items-start justify-start gap-[4rem]">
           <div className="flex flex-col items-start justify-start gap-[2rem]">
-            <div className="flex flex-row items-center justify-start gap-[1rem]">
-              <img
-                className="relative w-[2.5rem] h-[2.5rem]"
-                alt=""
-                src="/vector1.svg"
-              />
-              <div className="relative leading-[2.5rem] font-black">
-                Travlog
-              </div>
-            </div>
+            <Logo />
             <div className="relative text-[1.44rem] leading-[160%] font-black text-gray-300 inline-block w-[17.38rem]">
               <p className="m-0">
                 Contrary to popular belief, Lorem Ipsum is not simply random
